@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\util">
+      <UniqueIdentifier>{0bd8bd7d-fa27-4368-a525-61c3a512c279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\system">
+      <UniqueIdentifier>{a2704279-ea92-4019-96ab-41e917a37b1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\resource">
+      <UniqueIdentifier>{06583e78-b214-47e3-a20c-c9d1847bdebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\math">
+      <UniqueIdentifier>{28697901-781f-4e9d-b6f4-1f7467a57a9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\gl">
+      <UniqueIdentifier>{0fc7949f-8c22-4993-8837-95cc08cb77ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\app.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\include_glm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glwindow.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\image.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\srf\srf.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="include\srf\util\objectpool.h">
+      <Filter>헤더 파일\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\srf\util\pointers.h">
+      <Filter>헤더 파일\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\srf\system\input.h">
+      <Filter>헤더 파일\system</Filter>
+    </ClInclude>
+    <ClInclude Include="include\srf\system\log.h">
+      <Filter>헤더 파일\system</Filter>
+    </ClInclude>
+    <ClInclude Include="include\srf\system\resource.h">
+      <Filter>헤더 파일\system</Filter>
+    </ClInclude>
+    <ClInclude Include="include\srf\system\time.h">
+      <Filter>헤더 파일\system</Filter>
+    </ClInclude>
+    <ClInclude Include="include\srf\system\window.h">
+      <Filter>헤더 파일\system</Filter>
+    </ClInclude>
+    <ClInclude Include="include\srf\system\app.h">
+      <Filter>헤더 파일\system</Filter>
+    </ClInclude>
+    <ClInclude Include="include\srf\system\audio.h">
+      <Filter>헤더 파일\system</Filter>
+    </ClInclude>
+    <ClInclude Include="include\srf\math\include_glm.h">
+      <Filter>헤더 파일\math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\srf\math\math.h">
+      <Filter>헤더 파일\math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\srf\gl\glwindow.h">
+      <Filter>헤더 파일\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\srf\system\render.h">
+      <Filter>헤더 파일\system</Filter>
+    </ClInclude>
+    <ClInclude Include="include\srf\resource\image.h">
+      <Filter>헤더 파일\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="include\srf\gl\gl.h">
+      <Filter>헤더 파일\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\srf\gl\glbase.h">
+      <Filter>헤더 파일\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\srf\gl\gllocations.h">
+      <Filter>헤더 파일\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\srf\gl\glprogram.h">
+      <Filter>헤더 파일\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\srf\gl\glbuffer.h">
+      <Filter>헤더 파일\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\srf\gl\glvertexarray.h">
+      <Filter>헤더 파일\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\srf\gl\gltype.h">
+      <Filter>헤더 파일\gl</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

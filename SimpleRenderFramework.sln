@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "srf", "srf\srf.vcxproj", "{AE8083AA-4CFC-43C1-B301-49870E547444}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "srf_test", "srf_test\srf_test.vcxproj", "{6EB9672B-9FBF-423D-BAAA-964A34970959}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AE8083AA-4CFC-43C1-B301-49870E547444} = {AE8083AA-4CFC-43C1-B301-49870E547444}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "srf_image", "srf_image\srf_image.vcxproj", "{5123E413-1BB2-4509-90B4-11AE332F9270}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AE8083AA-4CFC-43C1-B301-49870E547444} = {AE8083AA-4CFC-43C1-B301-49870E547444}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "srf_shading", "srf_shading\srf_shading.vcxproj", "{13E196DD-ED40-486A-9BAF-72CEA5C4B305}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AE8083AA-4CFC-43C1-B301-49870E547444} = {AE8083AA-4CFC-43C1-B301-49870E547444}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE8083AA-4CFC-43C1-B301-49870E547444}.Debug|x64.ActiveCfg = Debug|x64
+		{AE8083AA-4CFC-43C1-B301-49870E547444}.Debug|x64.Build.0 = Debug|x64
+		{AE8083AA-4CFC-43C1-B301-49870E547444}.Debug|x86.ActiveCfg = Debug|Win32
+		{AE8083AA-4CFC-43C1-B301-49870E547444}.Debug|x86.Build.0 = Debug|Win32
+		{AE8083AA-4CFC-43C1-B301-49870E547444}.Release|x64.ActiveCfg = Release|x64
+		{AE8083AA-4CFC-43C1-B301-49870E547444}.Release|x64.Build.0 = Release|x64
+		{AE8083AA-4CFC-43C1-B301-49870E547444}.Release|x86.ActiveCfg = Release|Win32
+		{AE8083AA-4CFC-43C1-B301-49870E547444}.Release|x86.Build.0 = Release|Win32
+		{6EB9672B-9FBF-423D-BAAA-964A34970959}.Debug|x64.ActiveCfg = Debug|x64
+		{6EB9672B-9FBF-423D-BAAA-964A34970959}.Debug|x64.Build.0 = Debug|x64
+		{6EB9672B-9FBF-423D-BAAA-964A34970959}.Debug|x86.ActiveCfg = Debug|Win32
+		{6EB9672B-9FBF-423D-BAAA-964A34970959}.Debug|x86.Build.0 = Debug|Win32
+		{6EB9672B-9FBF-423D-BAAA-964A34970959}.Release|x64.ActiveCfg = Release|x64
+		{6EB9672B-9FBF-423D-BAAA-964A34970959}.Release|x64.Build.0 = Release|x64
+		{6EB9672B-9FBF-423D-BAAA-964A34970959}.Release|x86.ActiveCfg = Release|Win32
+		{6EB9672B-9FBF-423D-BAAA-964A34970959}.Release|x86.Build.0 = Release|Win32
+		{5123E413-1BB2-4509-90B4-11AE332F9270}.Debug|x64.ActiveCfg = Debug|x64
+		{5123E413-1BB2-4509-90B4-11AE332F9270}.Debug|x64.Build.0 = Debug|x64
+		{5123E413-1BB2-4509-90B4-11AE332F9270}.Debug|x86.ActiveCfg = Debug|Win32
+		{5123E413-1BB2-4509-90B4-11AE332F9270}.Debug|x86.Build.0 = Debug|Win32
+		{5123E413-1BB2-4509-90B4-11AE332F9270}.Release|x64.ActiveCfg = Release|x64
+		{5123E413-1BB2-4509-90B4-11AE332F9270}.Release|x64.Build.0 = Release|x64
+		{5123E413-1BB2-4509-90B4-11AE332F9270}.Release|x86.ActiveCfg = Release|Win32
+		{5123E413-1BB2-4509-90B4-11AE332F9270}.Release|x86.Build.0 = Release|Win32
+		{13E196DD-ED40-486A-9BAF-72CEA5C4B305}.Debug|x64.ActiveCfg = Debug|x64
+		{13E196DD-ED40-486A-9BAF-72CEA5C4B305}.Debug|x64.Build.0 = Debug|x64
+		{13E196DD-ED40-486A-9BAF-72CEA5C4B305}.Debug|x86.ActiveCfg = Debug|Win32
+		{13E196DD-ED40-486A-9BAF-72CEA5C4B305}.Debug|x86.Build.0 = Debug|Win32
+		{13E196DD-ED40-486A-9BAF-72CEA5C4B305}.Release|x64.ActiveCfg = Release|x64
+		{13E196DD-ED40-486A-9BAF-72CEA5C4B305}.Release|x64.Build.0 = Release|x64
+		{13E196DD-ED40-486A-9BAF-72CEA5C4B305}.Release|x86.ActiveCfg = Release|Win32
+		{13E196DD-ED40-486A-9BAF-72CEA5C4B305}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C32EEB43-CC2B-4920-B7B0-A26BFA84F637}
+	EndGlobalSection
+EndGlobal
